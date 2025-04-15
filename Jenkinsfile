@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clone repo') {
             steps {
-                git url : 'https://github.com/rakesh15565/raki.git' , branch : 'main'
+                git url : 'https://github.com/rakesh15565/face.git' , branch : 'main'
             }
         }
         stage ('compile java'){
